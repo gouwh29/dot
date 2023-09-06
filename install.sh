@@ -13,7 +13,7 @@ ln -sf $rootpath/.Xresources .
 ln -sf $rootpath/.terminfo .
 ln -sf $rootpath/.tmux.conf .
 
-chmod 600 .ssh/config
+[[ -f .ssh/config ]] && chmod 600 .ssh/config
 
 cd -
 
