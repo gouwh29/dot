@@ -1,8 +1,6 @@
 
 .First <- function() {
-	#select default CRAN mirror
 	options(
-		repos="http://cran.revolutionanalytics.com/",
 		browserNLdisabled = TRUE,
 		deparse.max.lines = 2
 	);
